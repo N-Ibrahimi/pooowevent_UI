@@ -558,11 +558,22 @@ pre code {
 }
 
 .container {
+  min-height: calc(90vh - 120px);
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container-ban {
+  min-height: calc(90vh - 120px);
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -5vh;
 }
 
 @media (min-width: 576px) {
@@ -2048,8 +2059,8 @@ pre code {
   background-color: #fff;
   border-color: #d0eae2;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(120, 194, 173, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(120, 194, 173, 0.25);
+  -webkit-box-shadow: 0 0 0 0.1rem rgba(120, 194, 173, 0.25);
+          box-shadow: 0 0 0 0.1rem rgba(120, 194, 173, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -4409,6 +4420,15 @@ input[type="button"].btn-block {
   display: block;
 }
 
+footer {
+  height: 60px;
+  background-color: #fff;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 5vh;
+
+}
+
 .navbar {
   position: relative;
   display: -webkit-box;
@@ -4423,6 +4443,8 @@ input[type="button"].btn-block {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.5rem 1rem;
+  margin-bottom: 5vh;
+  height: 60px;
 }
 
 .navbar > .container,
