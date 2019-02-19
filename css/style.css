@@ -4341,6 +4341,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  opacity: 0.7;
 }
 
 .nav-link.disabled {
@@ -4474,6 +4475,7 @@ footer {
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
+  opacity: 0.7;
 }
 
 .navbar-nav {
